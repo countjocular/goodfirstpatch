@@ -33,7 +33,7 @@ Workflows can vary, but here is a very simple workflow for contributing a patch:
     $ git clone git@github.com:myfork/goodfirstpatch.git
     $ git remote add goodfirstpatch https://github.com/daleharvey/goodfirstpatch.git
 
-    $ git checkout -b 121-issue-keyword master
+    $ git checkout -b 121-issue-keyword gh-pages
     # Write new stuff
     $ git add src/afile.js
     $ git commit -m "(#121) - A brief description of what I changed"
